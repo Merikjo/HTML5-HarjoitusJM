@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@section scripts{
+
+<link href="~/Scripts/normalize.css" rel="stylesheet" />
+
+    <style>
+        #wrap {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        header, footer {
+            padding: 20px;
+            background: #999;
+        }
+
+        #one {
+            padding: 20px;
+            background: #efefef;
+            float: left;
+            width: 640px;
+        }
+
+        #two {
+            padding: 20px;
+            background: #ccc;
+            margin-left: 700px;
+        }
+
+        /*//Muista, että floatit on "kliirattava". 
+        Tässä varmistetaan se, että footer on aina palstojen alapuolella, eikä pääse vuotamaan ylös rinnalle.*/
+        footer {
+            clear: both;
+        } 
+    </style>
+  
+}
+
+
+    <div id="wrap">
+
+        <header>
+            <h1>This is a header heading</h1>
+        </header>
+
+        <div id="one">
+            <h2>Column one heading</h2>
+            <p>
+                This is just simple text inside the column one.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget ante id neque lacinia faucibus.
+                Sed a ipsum vulputate, congue odio sed, dignissim ligula.
+                Mauris ut ipsum turpis. Pellentesque accumsan mauris nec tempus consequat.
+                Duis sagittis turpis sed felis ultricies rhoncus. Nunc nec maximus nisl.
+                Donec quis risus ac turpis venenatis faucibus. Aliquam sed turpis ac leo gravida efficitur vel at lacus.
+                Maecenas consequat facilisis porta. Maecenas vehicula libero sapien, eu porta dui pretium dictum.
+                Proin imperdiet tellus eget nisl suscipit gravida.
+            </p>
+        </div>
+
+        <div id="two">
+            <h2>Column two heading</h2>
+            This is just simple text inside column two.
+            Nullam volutpat tortor nec elementum egestas. Morbi pharetra porttitor felis, faucibus pharetra dui. Etiam fermentum eros tellus, eu varius massa bibendum eget. Sed lacinia magna at purus finibus rhoncus non non purus.
+        </div>
+
+        <footer>
+            <p>This is simple footer text.</p>
+        </footer>
+
+    </div>
