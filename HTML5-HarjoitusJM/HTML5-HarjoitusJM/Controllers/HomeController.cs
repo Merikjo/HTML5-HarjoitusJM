@@ -13,6 +13,50 @@ namespace HTML5_HarjoitusJM.Controllers
             return View();
         }
 
+        public ActionResult Index1()
+        {
+            return View();
+        }
+
+        public ActionResult Index2()
+        {
+            return View();
+        }
+
+        public ActionResult Index3()
+        {
+            return View();
+        }
+        public ActionResult Index4()
+        {
+            return View();
+        }
+
+        public ActionResult Index5()
+        {
+            return View();
+        }
+
+        public ActionResult Index6()
+        {
+            return View();
+        }
+
+        public ActionResult Index7()
+        {
+            return View();
+        }
+
+        public ActionResult Index8()
+        {
+            return View();
+        }
+
+        public ActionResult Index9()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

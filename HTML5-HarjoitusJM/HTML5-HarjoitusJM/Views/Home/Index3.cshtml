@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Index3";
+}
+
+@section scripts{
+    <script src="~/JavaScriptit/check-final.js"></script>
+    <script src="~/JavaScriptit/check.js"></script>
+}
+
+<title>JavaScript course | Teuvo Väisänen</title>
+<style type="text/css">
+
+    ul {
+        margin: 0 0 0 10px;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+    }
+
+    label {
+        width: 7em;
+        float: left;
+    }
+
+    #submit {
+        margin: 0 0 0 20px;
+    }
+</style>
+
+
+<h2>Lomakkeen tarkistus</h2>
+
+
+@*<form id="lomake" onsubmit="return tarkista();" action="http://teuvovaisanen.fi/PHP/formHandler.php" method="post">*@
+
+    <form id="lomake" onsubmit="return tarkista();" action="johanna.merikanto@hotmail.com" method="post">
+        <ul>
+            <li>
+                <label for="en">Etunimi</label>
+                <input name="en" id="en" type="text">
+            </li>
+            <li>
+                <label for="sn">Sukunimi</label>
+                <input name="sn" id="sn" type="text">
+            </li>
+            <li>
+                <label for="sp">Sähköposti</label>
+                <input name="sp" id="sp" type="text"><br>
+            </li>
+        </ul>
+        <input id="submit" type="submit" value="Lähetä">
+
+    </form>
+    
+    <div><img src="~/Images/haituvapallo.jpg" /></div>
